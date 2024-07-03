@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#background">Background</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hello there! My name is Ahmed Abdulmajed, but you can call me M03GZA. I am currently a fourth-year student pursuing a Bachelor's degree in Information Technology at SCU. This semester marks my seventh, and I have developed a strong foundation in HTML and CSS, along with advanced skills in JavaScript. My expertise extends to backend development using Node.js, PHP, and I've dabbled in Python for various projects.</p>
+        <p>When I'm not coding, you'll likely find me immersed in FPS (First-Person Shooter) games, where I enjoy honing my skills and connecting with fellow gamers.</p>
+        <p>Feel free to explore my portfolio to learn more about my projects, skills, and experiences. Don't hesitate to reach out—I'm always open to new opportunities and collaborations!</p>
+    </section>
+    
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <object type="image/svg+xml" data="./img/AvatarMaker.svg" width="100" height="100"></object>
+            <p>Hello, I'm Ahmed Abdulmajed, also known as M03GZA. I'm currently a fourth-year student pursuing a Bachelor's degree in Information Technology at SCU. With a passion for programming, I specialize in frontend development with expertise in HTML, CSS, and JavaScript. On the backend, I'm skilled in Node.js, PHP, and Python, enabling me to build robust and scalable web applications.</p>
+            <h3>Skills</h3>
+            <div class="skills-list">
+                <div class="skill">
+                    <i class="fas fa-code"></i> HTML
+                </div>
+                <div class="skill">
+                    <i class="fas fa-css3-alt"></i> CSS
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js-square"></i> JavaScript
+                </div>
+                <div class="skill">
+                    <i class="fab fa-node-js"></i> Node.js
+                </div>
+                <div class="skill">
+                    <i class="fab fa-php"></i> PHP
+                </div>
+                <div class="skill">
+                    <i class="fab fa-python"></i> Python
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i> SQL & NoSQL Databases
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Technologies</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Project 1</td>
+                    <td>Description of Project 1</td>
+                    <td>Technology 1, Technology 2</td>
+                    <td><a href="#">Link to Project 1</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="background">
+        <h2>Background</h2>
+        <img src="./img/download.jpeg" alt="Background Image">
+        <div class="background-content">
+            <p>TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/mqazkbkv" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 M03GZA. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/MEGZE-0" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/Ahmedsa39926223" target="_blank"><i class="fa fa-times"></i></a>
+        </div>
+    </footer>
+    
+    
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
